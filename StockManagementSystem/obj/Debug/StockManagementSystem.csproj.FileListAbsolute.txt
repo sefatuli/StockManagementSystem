@@ -1,0 +1,9 @@
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.pdb
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csprojAssemblyReference.cache
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Properties.Resources.resources
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.GenerateResource.cache
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.CoreCompileInputs.cache
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
+E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
