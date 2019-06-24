@@ -7,3 +7,13 @@ E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\S
 E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.CoreCompileInputs.cache
 E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
 E:\StockManagementSystem\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csprojAssemblyReference.cache
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Category_Setup.resources
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Properties.Resources.resources
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.GenerateResource.cache
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe
+C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.pdb
