@@ -17,3 +17,15 @@ C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\obj\Debug\St
 C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
 C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe
 C:\Users\Kathal\Desktop\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.pdb
+D:\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
+D:\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.exe
+D:\StockManagementSystem\StockManagementSystem\bin\Debug\StockManagementSystem.pdb
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csprojAssemblyReference.cache
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Category_Setup.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Menu.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Properties.Resources.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.GenerateResource.cache
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.CoreCompileInputs.cache
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Company_Setup.resources
