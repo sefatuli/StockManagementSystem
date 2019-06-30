@@ -28,5 +28,11 @@ namespace StockManagementSystem
             Company_Setup company_Setup = new Company_Setup();
             company_Setup.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Item_Setup item_Setup = new Item_Setup();
+            item_Setup.ShowDialog();
+        }
     }
 }

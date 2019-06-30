@@ -29,3 +29,4 @@ D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.c
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.exe
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Company_Setup.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Item_Setup.resources
