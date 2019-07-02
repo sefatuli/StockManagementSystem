@@ -17,6 +17,6 @@ namespace StockManagementSystem
             InitializeComponent();
         }
 
-       
+        
     }
 }

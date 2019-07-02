@@ -30,3 +30,4 @@ D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.e
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Company_Setup.resources
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Item_Setup.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.StockIn.resources

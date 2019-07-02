@@ -34,5 +34,11 @@ namespace StockManagementSystem
             Item_Setup item_Setup = new Item_Setup();
             item_Setup.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            StockIn stockIn = new StockIn();
+            stockIn.ShowDialog();
+        }
     }
 }
