@@ -45,7 +45,6 @@ namespace StockManagementSystem
         {
             StockOut stockOut = new StockOut();
             stockOut.ShowDialog();
-
         }
     }
 }

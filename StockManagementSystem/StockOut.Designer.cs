@@ -159,12 +159,13 @@
             // 
             // stockOutAddButton
             // 
+            this.stockOutAddButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.stockOutAddButton.Location = new System.Drawing.Point(475, 191);
             this.stockOutAddButton.Name = "stockOutAddButton";
             this.stockOutAddButton.Size = new System.Drawing.Size(75, 23);
             this.stockOutAddButton.TabIndex = 3;
             this.stockOutAddButton.Text = "Add";
-            this.stockOutAddButton.UseVisualStyleBackColor = true;
+            this.stockOutAddButton.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -181,30 +182,33 @@
             // 
             // sellButton
             // 
+            this.sellButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.sellButton.Location = new System.Drawing.Point(208, 403);
             this.sellButton.Name = "sellButton";
             this.sellButton.Size = new System.Drawing.Size(75, 23);
             this.sellButton.TabIndex = 3;
             this.sellButton.Text = "Sell";
-            this.sellButton.UseVisualStyleBackColor = true;
+            this.sellButton.UseVisualStyleBackColor = false;
             // 
             // lostButton
             // 
+            this.lostButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lostButton.Location = new System.Drawing.Point(344, 403);
             this.lostButton.Name = "lostButton";
             this.lostButton.Size = new System.Drawing.Size(75, 23);
             this.lostButton.TabIndex = 3;
             this.lostButton.Text = "Lost";
-            this.lostButton.UseVisualStyleBackColor = true;
+            this.lostButton.UseVisualStyleBackColor = false;
             // 
             // damageButton
             // 
+            this.damageButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.damageButton.Location = new System.Drawing.Point(475, 403);
             this.damageButton.Name = "damageButton";
             this.damageButton.Size = new System.Drawing.Size(75, 23);
             this.damageButton.TabIndex = 3;
             this.damageButton.Text = "Damage";
-            this.damageButton.UseVisualStyleBackColor = true;
+            this.damageButton.UseVisualStyleBackColor = false;
             // 
             // SL
             // 
