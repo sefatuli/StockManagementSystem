@@ -40,5 +40,12 @@ namespace StockManagementSystem
             StockIn stockIn = new StockIn();
             stockIn.ShowDialog();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            StockOut stockOut = new StockOut();
+            stockOut.ShowDialog();
+
+        }
     }
 }
