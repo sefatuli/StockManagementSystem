@@ -34,10 +34,10 @@
             this.catnameTextBox = new System.Windows.Forms.TextBox();
             this.messageLabel = new System.Windows.Forms.Label();
             this.categorydataGridView = new System.Windows.Forms.DataGridView();
-            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.SL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.categorydataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -94,10 +94,6 @@
             this.categorydataGridView.TabIndex = 5;
             this.categorydataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.categorydataGridView_CellContentClick);
             // 
-            // categoryBindingSource
-            // 
-            this.categoryBindingSource.DataSource = typeof(StockManagementSystem.Models.Category);
-            // 
             // SL
             // 
             this.SL.DataPropertyName = "ID";
@@ -116,6 +112,10 @@
             this.nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
             this.nameDataGridViewTextBoxColumn.HeaderText = "Name";
             this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            // 
+            // categoryBindingSource
+            // 
+            this.categoryBindingSource.DataSource = typeof(StockManagementSystem.Models.Category);
             // 
             // Category_Setup
             // 

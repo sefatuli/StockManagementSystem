@@ -47,6 +47,7 @@
             this.SaveButton.TabIndex = 0;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // label1
             // 
@@ -91,6 +92,14 @@
             // categoryComboBox
             // 
             this.categoryComboBox.FormattingEnabled = true;
+            this.categoryComboBox.Items.AddRange(new object[] {
+            "Stationary",
+            "Electronics",
+            "Home Appliance",
+            "Mobile",
+            "TV",
+            "Fridge",
+            "Food"});
             this.categoryComboBox.Location = new System.Drawing.Point(210, 52);
             this.categoryComboBox.Name = "categoryComboBox";
             this.categoryComboBox.Size = new System.Drawing.Size(159, 21);
@@ -99,6 +108,12 @@
             // companyComboBox
             // 
             this.companyComboBox.FormattingEnabled = true;
+            this.companyComboBox.Items.AddRange(new object[] {
+            "RFL",
+            "Uniliver",
+            "Samsung",
+            "Walton",
+            "Kazi Farms"});
             this.companyComboBox.Location = new System.Drawing.Point(210, 95);
             this.companyComboBox.Name = "companyComboBox";
             this.companyComboBox.Size = new System.Drawing.Size(159, 21);

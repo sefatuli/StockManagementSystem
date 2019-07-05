@@ -12,7 +12,7 @@ namespace StockManagementSystem.Repository
 {
     public class CategoryRepository
     {
-        string connectionString = @"Server=DESKTOP-1AALRD2; Database=StockManagementDB; 
+        string connectionString = @"Server=DESKTOP-LNRI3TI; Database=StockManagementDB; 
                       Integrated Security=True";
          SqlConnection sqlConnection;
 

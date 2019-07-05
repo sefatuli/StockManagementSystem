@@ -32,3 +32,19 @@ D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.C
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.Item_Setup.resources
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.StockIn.resources
 D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.StockOut.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\bin\Debug\StockManagementSystem.exe.config
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\bin\Debug\StockManagementSystem.exe
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\bin\Debug\StockManagementSystem.pdb
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.csprojAssemblyReference.cache
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.Category_Setup.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.Company_Setup.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.Item_Setup.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.Menu.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.Properties.Resources.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.Search_and_View_Items_Summary.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.StockIn.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.StockOut.resources
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.GenerateResource.cache
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.csproj.CoreCompileInputs.cache
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.exe
+E:\ Dot Net\Project1_Desktop_App\StockManagementSystem\obj\Debug\StockManagementSystem.pdb
