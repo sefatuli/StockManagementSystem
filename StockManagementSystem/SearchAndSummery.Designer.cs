@@ -37,17 +37,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.searchButton = new System.Windows.Forms.Button();
             this.resultDataGridView = new System.Windows.Forms.DataGridView();
-            this.stockOutDomainBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.itemIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.itemDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.companyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.qtyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReorderLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stockOutDomainBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.resultDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockOutDomainBindingSource)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // categoryComboBox
@@ -55,9 +57,9 @@
             this.categoryComboBox.DataSource = this.categoryBindingSource;
             this.categoryComboBox.DisplayMember = "Name";
             this.categoryComboBox.FormattingEnabled = true;
-            this.categoryComboBox.Location = new System.Drawing.Point(312, 72);
+            this.categoryComboBox.Location = new System.Drawing.Point(392, 59);
             this.categoryComboBox.Name = "categoryComboBox";
-            this.categoryComboBox.Size = new System.Drawing.Size(148, 21);
+            this.categoryComboBox.Size = new System.Drawing.Size(178, 25);
             this.categoryComboBox.TabIndex = 11;
             this.categoryComboBox.ValueMember = "ID";
             // 
@@ -70,9 +72,9 @@
             this.companyComboBox.DataSource = this.companyBindingSource;
             this.companyComboBox.DisplayMember = "Name";
             this.companyComboBox.FormattingEnabled = true;
-            this.companyComboBox.Location = new System.Drawing.Point(312, 38);
+            this.companyComboBox.Location = new System.Drawing.Point(392, 25);
             this.companyComboBox.Name = "companyComboBox";
-            this.companyComboBox.Size = new System.Drawing.Size(148, 21);
+            this.companyComboBox.Size = new System.Drawing.Size(178, 25);
             this.companyComboBox.TabIndex = 10;
             this.companyComboBox.ValueMember = "ID";
             // 
@@ -83,26 +85,26 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(223, 72);
+            this.label2.Location = new System.Drawing.Point(246, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 13);
+            this.label2.Size = new System.Drawing.Size(106, 19);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Category";
+            this.label2.Text = "Category Name";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(221, 38);
+            this.label1.Location = new System.Drawing.Point(243, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 13);
+            this.label1.Size = new System.Drawing.Size(109, 19);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Company";
+            this.label1.Text = "Company Name";
             // 
             // searchButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(387, 128);
+            this.searchButton.Location = new System.Drawing.Point(495, 90);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(75, 23);
+            this.searchButton.Size = new System.Drawing.Size(75, 28);
             this.searchButton.TabIndex = 12;
             this.searchButton.Text = "Search";
             this.searchButton.UseVisualStyleBackColor = true;
@@ -111,6 +113,7 @@
             // resultDataGridView
             // 
             this.resultDataGridView.AutoGenerateColumns = false;
+            this.resultDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.resultDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.resultDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.itemIDDataGridViewTextBoxColumn,
@@ -120,14 +123,10 @@
             this.qtyDataGridViewTextBoxColumn,
             this.ReorderLevel});
             this.resultDataGridView.DataSource = this.stockOutDomainBindingSource;
-            this.resultDataGridView.Location = new System.Drawing.Point(57, 189);
+            this.resultDataGridView.Location = new System.Drawing.Point(27, 124);
             this.resultDataGridView.Name = "resultDataGridView";
-            this.resultDataGridView.Size = new System.Drawing.Size(536, 172);
+            this.resultDataGridView.Size = new System.Drawing.Size(543, 186);
             this.resultDataGridView.TabIndex = 13;
-            // 
-            // stockOutDomainBindingSource
-            // 
-            this.stockOutDomainBindingSource.DataSource = typeof(StockManagementSystem.Models.StockOutDomain);
             // 
             // itemIDDataGridViewTextBoxColumn
             // 
@@ -166,26 +165,43 @@
             this.ReorderLevel.HeaderText = "ReorderLevel";
             this.ReorderLevel.Name = "ReorderLevel";
             // 
+            // stockOutDomainBindingSource
+            // 
+            this.stockOutDomainBindingSource.DataSource = typeof(StockManagementSystem.Models.StockOutDomain);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.resultDataGridView);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.searchButton);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.categoryComboBox);
+            this.groupBox1.Controls.Add(this.companyComboBox);
+            this.groupBox1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.groupBox1.Location = new System.Drawing.Point(88, 18);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(603, 328);
+            this.groupBox1.TabIndex = 14;
+            this.groupBox1.TabStop = false;
+            // 
             // SearchAndSummery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 388);
-            this.Controls.Add(this.resultDataGridView);
-            this.Controls.Add(this.searchButton);
-            this.Controls.Add(this.categoryComboBox);
-            this.Controls.Add(this.companyComboBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(788, 358);
+            this.Controls.Add(this.groupBox1);
             this.Name = "SearchAndSummery";
-            this.Text = "SearchAndSummery";
+            this.Text = "Search and View Item Summay ";
+            this.TransparencyKey = System.Drawing.Color.Yellow;
             this.Load += new System.EventHandler(this.SearchAndSummery_Load);
             ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.resultDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockOutDomainBindingSource)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -206,5 +222,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Category;
         private System.Windows.Forms.DataGridViewTextBoxColumn qtyDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ReorderLevel;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
