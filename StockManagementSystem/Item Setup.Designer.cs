@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.SaveButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,6 +38,10 @@
             this.companyComboBox = new System.Windows.Forms.ComboBox();
             this.itemnameTextBox = new System.Windows.Forms.TextBox();
             this.reorderTextBox = new System.Windows.Forms.TextBox();
+            this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.companyBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // SaveButton
@@ -47,6 +52,7 @@
             this.SaveButton.TabIndex = 0;
             this.SaveButton.Text = "Save";
             this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // label1
             // 
@@ -90,19 +96,25 @@
             // 
             // categoryComboBox
             // 
+            this.categoryComboBox.DataSource = this.categoryBindingSource;
+            this.categoryComboBox.DisplayMember = "Name";
             this.categoryComboBox.FormattingEnabled = true;
             this.categoryComboBox.Location = new System.Drawing.Point(210, 52);
             this.categoryComboBox.Name = "categoryComboBox";
             this.categoryComboBox.Size = new System.Drawing.Size(159, 21);
             this.categoryComboBox.TabIndex = 5;
+            this.categoryComboBox.ValueMember = "ID";
             // 
             // companyComboBox
             // 
+            this.companyComboBox.DataSource = this.companyBindingSource;
+            this.companyComboBox.DisplayMember = "Name";
             this.companyComboBox.FormattingEnabled = true;
             this.companyComboBox.Location = new System.Drawing.Point(210, 95);
             this.companyComboBox.Name = "companyComboBox";
             this.companyComboBox.Size = new System.Drawing.Size(159, 21);
             this.companyComboBox.TabIndex = 6;
+            this.companyComboBox.ValueMember = "ID";
             // 
             // itemnameTextBox
             // 
@@ -117,6 +129,14 @@
             this.reorderTextBox.Name = "reorderTextBox";
             this.reorderTextBox.Size = new System.Drawing.Size(159, 20);
             this.reorderTextBox.TabIndex = 8;
+            // 
+            // categoryBindingSource
+            // 
+            this.categoryBindingSource.DataSource = typeof(StockManagementSystem.Models.Category);
+            // 
+            // companyBindingSource
+            // 
+            this.companyBindingSource.DataSource = typeof(StockManagementSystem.Models.Company);
             // 
             // Item_Setup
             // 
@@ -134,6 +154,9 @@
             this.Controls.Add(this.SaveButton);
             this.Name = "Item_Setup";
             this.Text = "Item_Setup";
+            this.Load += new System.EventHandler(this.Item_Setup_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.categoryBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,5 +173,7 @@
         private System.Windows.Forms.ComboBox companyComboBox;
         private System.Windows.Forms.TextBox itemnameTextBox;
         private System.Windows.Forms.TextBox reorderTextBox;
+        private System.Windows.Forms.BindingSource categoryBindingSource;
+        private System.Windows.Forms.BindingSource companyBindingSource;
     }
 }
