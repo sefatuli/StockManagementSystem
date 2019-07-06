@@ -38,57 +38,59 @@
             this.lostradioButton = new System.Windows.Forms.RadioButton();
             this.searchbutton = new System.Windows.Forms.Button();
             this.showDataGridView = new System.Windows.Forms.DataGridView();
-            this.stockOutDomainBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.itemIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.itemDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.companyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.qtyDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.stockOutDomainBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.showDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockOutDomainBindingSource)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // fromdateTimePicker
             // 
             this.fromdateTimePicker.CustomFormat = "dd/MM/yyyy";
             this.fromdateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.fromdateTimePicker.Location = new System.Drawing.Point(259, 34);
+            this.fromdateTimePicker.Location = new System.Drawing.Point(216, 26);
             this.fromdateTimePicker.Name = "fromdateTimePicker";
-            this.fromdateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.fromdateTimePicker.Size = new System.Drawing.Size(200, 23);
             this.fromdateTimePicker.TabIndex = 0;
             // 
             // todateTimePicker
             // 
             this.todateTimePicker.CustomFormat = "dd/MM/yyyy";
             this.todateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.todateTimePicker.Location = new System.Drawing.Point(259, 87);
+            this.todateTimePicker.Location = new System.Drawing.Point(217, 66);
             this.todateTimePicker.Name = "todateTimePicker";
-            this.todateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.todateTimePicker.Size = new System.Drawing.Size(200, 23);
             this.todateTimePicker.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(150, 34);
+            this.label1.Location = new System.Drawing.Point(111, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
+            this.label1.Size = new System.Drawing.Size(74, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "From Date";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(153, 87);
+            this.label2.Location = new System.Drawing.Point(111, 66);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(59, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "To Date";
             // 
             // soldradioButton
             // 
             this.soldradioButton.AutoSize = true;
-            this.soldradioButton.Location = new System.Drawing.Point(179, 157);
+            this.soldradioButton.Location = new System.Drawing.Point(141, 104);
             this.soldradioButton.Name = "soldradioButton";
-            this.soldradioButton.Size = new System.Drawing.Size(46, 17);
+            this.soldradioButton.Size = new System.Drawing.Size(54, 21);
             this.soldradioButton.TabIndex = 4;
             this.soldradioButton.TabStop = true;
             this.soldradioButton.Text = "Sold";
@@ -97,9 +99,9 @@
             // damagedradioButton
             // 
             this.damagedradioButton.AutoSize = true;
-            this.damagedradioButton.Location = new System.Drawing.Point(287, 157);
+            this.damagedradioButton.Location = new System.Drawing.Point(249, 104);
             this.damagedradioButton.Name = "damagedradioButton";
-            this.damagedradioButton.Size = new System.Drawing.Size(71, 17);
+            this.damagedradioButton.Size = new System.Drawing.Size(87, 21);
             this.damagedradioButton.TabIndex = 5;
             this.damagedradioButton.TabStop = true;
             this.damagedradioButton.Text = "Damaged";
@@ -108,9 +110,9 @@
             // lostradioButton
             // 
             this.lostradioButton.AutoSize = true;
-            this.lostradioButton.Location = new System.Drawing.Point(411, 157);
+            this.lostradioButton.Location = new System.Drawing.Point(373, 104);
             this.lostradioButton.Name = "lostradioButton";
-            this.lostradioButton.Size = new System.Drawing.Size(45, 17);
+            this.lostradioButton.Size = new System.Drawing.Size(53, 21);
             this.lostradioButton.TabIndex = 6;
             this.lostradioButton.TabStop = true;
             this.lostradioButton.Text = "Lost";
@@ -118,9 +120,9 @@
             // 
             // searchbutton
             // 
-            this.searchbutton.Location = new System.Drawing.Point(387, 200);
+            this.searchbutton.Location = new System.Drawing.Point(341, 139);
             this.searchbutton.Name = "searchbutton";
-            this.searchbutton.Size = new System.Drawing.Size(75, 23);
+            this.searchbutton.Size = new System.Drawing.Size(75, 36);
             this.searchbutton.TabIndex = 7;
             this.searchbutton.Text = "Search";
             this.searchbutton.UseVisualStyleBackColor = true;
@@ -129,6 +131,7 @@
             // showDataGridView
             // 
             this.showDataGridView.AutoGenerateColumns = false;
+            this.showDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.showDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.showDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.itemIDDataGridViewTextBoxColumn,
@@ -136,14 +139,10 @@
             this.companyDataGridViewTextBoxColumn,
             this.qtyDataGridViewTextBoxColumn});
             this.showDataGridView.DataSource = this.stockOutDomainBindingSource;
-            this.showDataGridView.Location = new System.Drawing.Point(111, 229);
+            this.showDataGridView.Location = new System.Drawing.Point(125, 206);
             this.showDataGridView.Name = "showDataGridView";
-            this.showDataGridView.Size = new System.Drawing.Size(425, 150);
+            this.showDataGridView.Size = new System.Drawing.Size(462, 150);
             this.showDataGridView.TabIndex = 8;
-            // 
-            // stockOutDomainBindingSource
-            // 
-            this.stockOutDomainBindingSource.DataSource = typeof(StockManagementSystem.Models.StockOutDomain);
             // 
             // itemIDDataGridViewTextBoxColumn
             // 
@@ -170,26 +169,42 @@
             this.qtyDataGridViewTextBoxColumn.HeaderText = "Sold/Damaged/Lost Qty";
             this.qtyDataGridViewTextBoxColumn.Name = "qtyDataGridViewTextBoxColumn";
             // 
+            // stockOutDomainBindingSource
+            // 
+            this.stockOutDomainBindingSource.DataSource = typeof(StockManagementSystem.Models.StockOutDomain);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lostradioButton);
+            this.groupBox1.Controls.Add(this.fromdateTimePicker);
+            this.groupBox1.Controls.Add(this.searchbutton);
+            this.groupBox1.Controls.Add(this.todateTimePicker);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.damagedradioButton);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.soldradioButton);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.groupBox1.Location = new System.Drawing.Point(125, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(462, 181);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            // 
             // SearchDateWise
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 370);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.showDataGridView);
-            this.Controls.Add(this.searchbutton);
-            this.Controls.Add(this.lostradioButton);
-            this.Controls.Add(this.damagedradioButton);
-            this.Controls.Add(this.soldradioButton);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.todateTimePicker);
-            this.Controls.Add(this.fromdateTimePicker);
             this.Name = "SearchDateWise";
-            this.Text = "SearchDateWise";
+            this.Text = "Date Wise Report Summary";
             ((System.ComponentModel.ISupportInitialize)(this.showDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockOutDomainBindingSource)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -209,5 +224,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn itemDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn companyDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn qtyDataGridViewTextBoxColumn;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
