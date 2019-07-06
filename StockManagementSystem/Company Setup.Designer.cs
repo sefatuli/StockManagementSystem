@@ -46,7 +46,7 @@
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(480, 38);
+            this.SaveButton.Location = new System.Drawing.Point(370, 47);
             this.SaveButton.Name = "SaveButton";
             this.SaveButton.Size = new System.Drawing.Size(75, 33);
             this.SaveButton.TabIndex = 0;
@@ -57,7 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(125, 44);
+            this.label1.Location = new System.Drawing.Point(15, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(126, 21);
             this.label1.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // companynameTextBox
             // 
-            this.companynameTextBox.Location = new System.Drawing.Point(257, 41);
+            this.companynameTextBox.Location = new System.Drawing.Point(147, 50);
             this.companynameTextBox.Name = "companynameTextBox";
             this.companynameTextBox.Size = new System.Drawing.Size(207, 29);
             this.companynameTextBox.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.iDDataGridViewTextBoxColumn,
             this.nameDataGridViewTextBoxColumn});
             this.companydataGridView.DataSource = this.companyBindingSource;
-            this.companydataGridView.Location = new System.Drawing.Point(257, 101);
+            this.companydataGridView.Location = new System.Drawing.Point(147, 110);
             this.companydataGridView.Name = "companydataGridView";
             this.companydataGridView.Size = new System.Drawing.Size(298, 173);
             this.companydataGridView.TabIndex = 3;
@@ -125,9 +125,9 @@
             this.groupBox1.Controls.Add(this.companynameTextBox);
             this.groupBox1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox1.Location = new System.Drawing.Point(43, 22);
+            this.groupBox1.Location = new System.Drawing.Point(137, 22);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(693, 316);
+            this.groupBox1.Size = new System.Drawing.Size(535, 316);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Company Setup";
