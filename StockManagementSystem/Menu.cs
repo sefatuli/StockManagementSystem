@@ -46,5 +46,17 @@ namespace StockManagementSystem
             StockOut stockOut = new StockOut();
             stockOut.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            SearchAndSummery searchAndSummery = new SearchAndSummery();
+            searchAndSummery.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            SearchDateWise searchDateWise = new SearchDateWise();
+            searchDateWise.ShowDialog();
+        }
     }
 }

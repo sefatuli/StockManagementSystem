@@ -34,10 +34,10 @@
             this.companynameTextBox = new System.Windows.Forms.TextBox();
             this.companydataGridView = new System.Windows.Forms.DataGridView();
             this.SL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.messageLabel = new System.Windows.Forms.Label();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.companyBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.messageLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.companydataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -89,6 +89,14 @@
             this.SL.HeaderText = "SL";
             this.SL.Name = "SL";
             // 
+            // messageLabel
+            // 
+            this.messageLabel.AutoSize = true;
+            this.messageLabel.Location = new System.Drawing.Point(517, 86);
+            this.messageLabel.Name = "messageLabel";
+            this.messageLabel.Size = new System.Drawing.Size(0, 13);
+            this.messageLabel.TabIndex = 4;
+            // 
             // iDDataGridViewTextBoxColumn
             // 
             this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
@@ -105,14 +113,6 @@
             // companyBindingSource
             // 
             this.companyBindingSource.DataSource = typeof(StockManagementSystem.Models.Company);
-            // 
-            // messageLabel
-            // 
-            this.messageLabel.AutoSize = true;
-            this.messageLabel.Location = new System.Drawing.Point(517, 86);
-            this.messageLabel.Name = "messageLabel";
-            this.messageLabel.Size = new System.Drawing.Size(0, 13);
-            this.messageLabel.TabIndex = 4;
             // 
             // Company_Setup
             // 
