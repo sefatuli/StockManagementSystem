@@ -49,3 +49,5 @@ E:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.p
 E:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.csprojAssemblyReference.cache
 E:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.SearchAndSummery.resources
 E:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.SearchDateWise.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.SearchAndSummery.resources
+D:\StockManagementSystem\StockManagementSystem\obj\Debug\StockManagementSystem.SearchDateWise.resources

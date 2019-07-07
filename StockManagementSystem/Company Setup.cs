@@ -36,7 +36,7 @@ namespace StockManagementSystem
                 name = companynameTextBox.Text;
                 if (String.IsNullOrEmpty(name))
                 {
-                    messageLabel.Text = "Name Field is Empty";
+                    MessageBox.Show("Name Field is Empty");
                     return;
                 }
                 Insert(name);
@@ -46,7 +46,7 @@ namespace StockManagementSystem
                 name = companynameTextBox.Text;
                 if (String.IsNullOrEmpty(name))
                 {
-                    messageLabel.Text = "Name Field is Empty";
+                    MessageBox.Show("Name Field is Empty");
                     return;
                 }
                 Update(name);
@@ -67,16 +67,16 @@ namespace StockManagementSystem
                 isExecuted = companyManager.Insert(company);
                 if (isExecuted > 0)
                 {
-                    messageLabel.Text = "Saved Successfully";
+                    MessageBox.Show("Saved Successfully");
                 }
                 else
                 {
-                    messageLabel.Text = "Save Failed!";
+                    MessageBox.Show("Save Failed!");
                 }
             }
             else
             {
-                messageLabel.Text = "Category Already Exist";
+                MessageBox.Show("Category Already Exist");
             }
 
         }
@@ -88,11 +88,11 @@ namespace StockManagementSystem
             isExecuted = companyManager.Update(company);
             if (isExecuted > 0)
             {
-                messageLabel.Text = "Updated Successfully";
+                MessageBox.Show("Updated Successfully");
             }
             else
             {
-                messageLabel.Text = "Update Failed!";
+                MessageBox.Show("Update Failed!");
             }
         }
 

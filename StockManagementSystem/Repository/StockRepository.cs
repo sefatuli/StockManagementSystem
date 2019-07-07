@@ -11,7 +11,7 @@ namespace StockManagementSystem.Repository
 {
     public class StockRepository
     {
-        private SqlConnection sqlConnection = new SqlConnection(@"Server=FARHAD\MSSQLSERVER_F; Database=StockManagementDB;User ID=sa;Password=farhad; Integrated Security=True");
+        private SqlConnection sqlConnection = new SqlConnection(@"Server=DESKTOP-1AALRD2; Database=StockManagementDB;User ID=sa;Password=farhad; Integrated Security=True");
 
         private string commandString;
         private SqlCommand sqlCommand;

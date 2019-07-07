@@ -279,7 +279,7 @@
             this.ClientSize = new System.Drawing.Size(754, 366);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.stockinDataGridView);
-            this.Name = "StockIn";
+            //this.Name = "StockIn";
             this.Text = "Stock In Item";
             this.Load += new System.EventHandler(this.StockIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.companyBindingSource)).EndInit();

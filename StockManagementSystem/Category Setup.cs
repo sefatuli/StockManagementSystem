@@ -38,7 +38,7 @@ namespace StockManagementSystem
                 name = catnameTextBox.Text;
                 if (String.IsNullOrEmpty(name))
                 {
-                    messageLabel.Text = "Name Field is Empty";
+                    MessageBox.Show("Name Field is Empty");
                     return;
                 }
                 Insert(name);
@@ -48,7 +48,7 @@ namespace StockManagementSystem
                 name = catnameTextBox.Text;
                 if (String.IsNullOrEmpty(name))
                 {
-                    messageLabel.Text = "Name Field is Empty";
+                    MessageBox.Show("Name Field is Empty");
                     return;
                 }
                 Update(name);
@@ -69,16 +69,16 @@ namespace StockManagementSystem
                 isExecuted = categoryManager.Insert(category);
                 if (isExecuted > 0)
                 {
-                    messageLabel.Text = "Saved Successfully";
+                    MessageBox.Show("Saved Successfully");
                 }
                 else
                 {
-                    messageLabel.Text = "Save Failed!";
+                    MessageBox.Show("Save Failed!");
                 }
             }
             else
             {
-                messageLabel.Text = "Category Already Exist";
+                MessageBox.Show("Category Already Exist");
             }
 
         }
@@ -89,11 +89,11 @@ namespace StockManagementSystem
             isExecuted = categoryManager.Update(category);
             if (isExecuted > 0)
             {
-                messageLabel.Text = "Updated Successfully";
+                MessageBox.Show("Updated Successfully");
             }
             else
             {
-                messageLabel.Text = "Update Failed!";
+                MessageBox.Show("Update Failed!");
             }
         }
         private void Display()

@@ -3,11 +3,11 @@ CREATE DATABASE StockManagementDB
 
 --USE StockManagementDB
 
---CREATE TABLE Categories
---(
---ID int IDENTITY(1,1),
---Name VARCHAR(25)
---)
+CREATE TABLE Categories
+(
+ID int IDENTITY(1,1),
+Name VARCHAR(25)
+)
 
 -- DROP TABLE Categories
 
